@@ -15,6 +15,7 @@ ElevenLabs is not an add-on here. It is what gives the game most of its atmosphe
 - Surface-driven footsteps: the game models footsteps on wood, stone, rug, grass, and water, and each surface changes how far the sound travels and how dangerous movement feels.
 - Object impact and prop noise: bumping into tables or smashing a vase is not cosmetic. Those sounds become gameplay events that can pull Echoes toward the player.
 - Atmosphere through generated SFX: mirror crossings, Echo alerts, memory returns, and other environmental cues carry much of the game's mood and make the spaces feel fragile and haunted.
+- Soul release voices: when memories are freed, the trapped souls answer with generated voice lines created with ElevenLabs, turning each release into an emotional audio beat instead of a silent collectible.
 - Music as world texture: the ElevenLabs music pipeline supports the tonal contrast between the living world and its broken reflection.
 - Audio as stealth logic: the Phaser runtime uses a `NoiseSystem` plus Echo hearing behavior so the soundscape directly shapes enemy reaction, pathing pressure, and player decision-making.
 
