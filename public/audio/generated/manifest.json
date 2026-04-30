@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-04-30T14:55:18.799Z",
+  "assets": [
+    {
+      "id": "memory-ripped",
+      "label": "Memory loss punishment cue",
+      "kind": "sfx",
+      "filePath": "D:\\Programas\\06. Otros proyectos\\hackaton-elevenlabs\\zed2\\public\\audio\\generated\\sfx\\memory-ripped.mp3",
+      "publicPath": "/audio/generated/sfx/memory-ripped.mp3",
+      "outputFormat": "mp3_44100_128",
+      "contentType": "audio/mpeg",
+      "characterCost": "42",
+      "songId": null,
+      "request": {
+        "outputFormat": "mp3_44100_128",
+        "text": "A stolen memory ripping out of a haunted chest, sharp spectral tear, snapped glass fibers, breath being pulled away, intimate supernatural punishment cue, sorrowful and unsettling, no speech, no music.",
+        "durationSeconds": 2.1,
+        "promptInfluence": 0.63,
+        "modelId": "eleven_text_to_sound_v2"
+      },
+      "generatedAt": "2026-04-30T14:55:18.798Z"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "hushfall",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "assets:generate": "tsx scripts/elevenlabs/generate-assets.ts",
+    "assets:sfx": "tsx scripts/elevenlabs/generate-assets.ts --scope=sfx",
+    "assets:music": "tsx scripts/elevenlabs/generate-assets.ts --scope=music",
+    "voices:design": "tsx scripts/elevenlabs/design-voices.ts",
+    "voices:create": "tsx scripts/elevenlabs/design-voices.ts --persist"
+  },
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.45.0",
+    "lucide-react": "^0.460.0",
+    "next": "^16.2.4",
+    "phaser": "^3.87.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.18.0",
+    "eslint-config-next": "^16.2.4",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
