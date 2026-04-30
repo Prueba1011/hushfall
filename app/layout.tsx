@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   title: "Hushfall",
   description:
     "A short atmospheric stealth game about recovering lost souls across two mirrored worlds, shaped by music, spectral voices, and sound-guided play.",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({

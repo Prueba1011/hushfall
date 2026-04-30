@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="12" y1="8" x2="52" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#241917"/>
+      <stop offset="0.52" stop-color="#120d17"/>
+      <stop offset="1" stop-color="#05060d"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="18" y1="12" x2="46" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5d89a"/>
+      <stop offset="0.5" stop-color="#b68a54"/>
+      <stop offset="1" stop-color="#6d4f33"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="20" y1="16" x2="44" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b9bfcc"/>
+      <stop offset="0.45" stop-color="#52627c"/>
+      <stop offset="1" stop-color="#1a2236"/>
+    </linearGradient>
+    <radialGradient id="soul" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(32 31) rotate(90) scale(15)">
+      <stop offset="0" stop-color="#fff3cf"/>
+      <stop offset="0.35" stop-color="#ffd98d"/>
+      <stop offset="1" stop-color="#ffd98d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <rect x="15" y="10" width="34" height="44" rx="9" fill="#2c1e1a"/>
+  <rect x="17" y="12" width="30" height="40" rx="8" fill="url(#frame)"/>
+  <rect x="21" y="16" width="22" height="32" rx="5" fill="url(#glass)"/>
+
+  <ellipse cx="32" cy="31" rx="11" ry="13" fill="url(#soul)"/>
+  <path d="M32 22C29.2 25.8 28 28.7 28 31.2C28 35.5 30.8 39 32 40.3C33.2 39 36 35.5 36 31.2C36 28.7 34.8 25.8 32 22Z" fill="#fff1c6"/>
+  <circle cx="32" cy="31" r="2.2" fill="#fff9ea"/>
+
+  <path d="M36 17L32 24L35 30L29 37L33 42L28 49" stroke="#e8eefc" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M25 19.5L29 25" stroke="#d7e1f4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M37 34L41 39" stroke="#d7e1f4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M24 44L29 40" stroke="#d7e1f4" stroke-width="1.6" stroke-linecap="round"/>
+
+  <rect x="20" y="15" width="24" height="34" rx="6" stroke="#fff3cf" stroke-opacity="0.38"/>
+</svg>
